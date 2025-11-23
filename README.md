@@ -83,5 +83,3 @@ The testbench performs the complete **serial scan functional testing** procedure
 - **Waveforms:** Collected and analyzed per assignment requirements
 
 ---
-Using the standard formula:
-
