@@ -71,25 +71,6 @@ The testbench performs the complete **serial scan functional testing** procedure
 - Explanation of scan mode vs capture mode  
 - Verification that TRCUT outputs match expected results  
 
----
-
-## Timing Analysis
-
-A separate section evaluates the **time required for scan-based testing** using:
-
-- Clock frequency: **fCLK = 10 MHz**  
-- Scan chain length (number of SDFFs)  
-- Number of truth-table vectors  
-
-Extended analysis includes hypothetical CUTs with:
-
-- 10 inputs  
-- 20 inputs  
-- 30 inputs  
-- 40 inputs  
-
-T_test = (#vectors) × (2 × scan_length + capture_cycles) / fCLK
-
 
 ---
 
