@@ -36,7 +36,7 @@ All designs are implemented in VHDL or Verilog and verified through Quartus and 
   - Implements the logic provided in the assignment  
   - Verified against Quartus schematic
 
-- `ScanChain.vhd`  
+- `Scan_Chain.vhd`  
   - Serial chain of SDFFs  
   - Provides controllability to CUT inputs  
   - Captures CUT outputs through SDFF update stage  
