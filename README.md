@@ -1,7 +1,7 @@
 # Scan Chain & TRCUT Implementation  
 ### Testability and Dependability of Electronic Systems
 
-This repository contains the full VHDL/Verilog implementation of **scan-chain based functional testing**, based on **Exercise 1** of the course *Testability and Dependability of Electronic Systems* at the University of Ioannina.  
+This repository contains the full VHDL implementation of **scan-chain based functional testing**, based on **Exercise 1** of the course *Testability and Dependability of Electronic Systems* at the University of Ioannina.  
 The project includes the Scan D Flip-Flop (SDFF), the construction of a serial scan chain, a TRCUT wrapper, and complete testbenches for functional verification of the CUT using serial scan.
 
 ---
@@ -24,14 +24,14 @@ All designs are implemented in VHDL or Verilog and verified through Quartus and 
 
 ### Implemented Modules
 
-- `SDFF.vhd` / `SDFF.v`  
+- `SDFF.vhd`  
   - Scan-enabled D flip-flop  
   - Supports:
     - Data mode (functional)  
     - Scan shift mode  
   - Clocked flip-flop: synchronous with `CLK`  
 
-- `TEST.vhd`  
+- `CUT.vhd`  
   - The combinational Circuit Under Test (CUT)  
   - Implements the logic provided in the assignment  
   - Verified against Quartus schematic
@@ -55,7 +55,7 @@ The structure matches the assignment block diagram closely.
 
 ## Testbench for TRCUT
 
-### Implemented Testbench: `tb_TRCUT.vhd`
+### Implemented Testbench: `TRCUT_tbb.vhd`
 
 The testbench performs the complete **serial scan functional testing** procedure:
 
