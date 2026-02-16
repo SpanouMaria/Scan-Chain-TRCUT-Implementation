@@ -76,10 +76,9 @@ The testbench performs the complete **serial scan functional testing** procedure
 
 ## Tools & Technologies
 
-- **HDL:** VHDL or Verilog  
+- **HDL:** VHDL
 - **Design Tool:** Quartus Prime  
-- **Simulation:** ModelSim / QuestaSim  
-- **Platform:** Generic FPGA  
+- **Simulation:** ModelSim 
 - **Waveforms:** Collected and analyzed per assignment requirements
 
 ---
